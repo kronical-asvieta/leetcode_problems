@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(s: str) -> int:
+    def lengthOfLongestSubstring(self, s: str) -> int:
         strlen = len(s)
         characters = []
         length = 0
@@ -13,5 +13,3 @@ class Solution:
             length += 1
 
         return length
-
-print(Solution.lengthOfLongestSubstring("abcdefgha"))
